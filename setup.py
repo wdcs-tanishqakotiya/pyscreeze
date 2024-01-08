@@ -35,15 +35,15 @@ setup(
     # necessary to have screenshots work with Wayland (the
     # replacement for x11.) Therefore, for 3.7 and later, PyScreeze
     # requires 9.2.0.
-    install_requires=['Pillow >= 9.3.0; python_version == "3.11"',
-                      'Pillow >= 9.2.0; python_version == "3.10"',
-                      'Pillow >= 9.2.0; python_version == "3.9"',  # 'Pillow >= 8.0.0; python_version == "3.9"',
-                      'Pillow >= 9.2.0; python_version == "3.8"',  # 'Pillow >= 6.2.1; python_version == "3.8"',
-                      'Pillow >= 9.2.0; python_version == "3.7"',  # 'Pillow >= 5.2.0; python_version == "3.7"',
-                      'Pillow < 9.0.0, >= 8.3.2; python_version == "3.6"',  # 'Pillow < 9.0.0, >= 4.0.0; python_version == "3.6"',
-                      'Pillow < 8.0.0, >= 3.2.0; python_version == "3.5"',
-                      'Pillow < 6.0.0, >= 2.5.0; python_version == "3.4"',
-                      ],
+    install_requires = ['Pillow >= 9.3.0; python_version == "3.11"',
+                        'Pillow >= 9.2.0; python_version == "3.10"',
+                        'Pillow >= 9.2.0; python_version == "3.9"',  # 'Pillow >= 8.0.0; python_version == "3.9"',
+                        'Pillow >= 9.2.0; python_version == "3.8"',  # 'Pillow >= 6.2.1; python_version == "3.8"',
+                        'Pillow >= 9.2.0; python_version == "3.7"',  # 'Pillow >= 5.2.0; python_version == "3.7"',
+                        'Pillow < 9.0.0, >= 8.3.2; python_version == "3.6"',  # 'Pillow < 9.0.0, >= 4.0.0; python_version == "3.6"',
+                        'Pillow < 8.0.0, >= 3.2.0; python_version == "3.5"',
+                        'Pillow < 6.0.0, >= 2.5.0; python_version == "3.4"',
+                        ],
     requires_python="!=2.*, !=3.0.*, !=3.1.*",  # Pillow library has never supported pre-2.7 or 3.0 or 3.1.
     keywords="screenshot screen screencap capture scrot screencapture image",
     classifiers=[
